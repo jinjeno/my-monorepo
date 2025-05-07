@@ -1,0 +1,31 @@
+name: my-monorepo
+id: ari:cloud:compass:76fd0681-c6f9-4716-b001-a0e26af0d80f:component/f57a836f-d7db-4f8f-811b-58ff5b834723/d3cc4827-4e0a-424f-9b81-fe59d668f9e1
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/jinjeno/my-monorepo
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Data encrypted at rest
+    type: text
+    value: null
+  - name: Data encrypted in transit
+    type: text
+    value: null
+  - name: Deployed?
+    type: boolean
+    value: false
+  - name: Last security review
+    type: text
+    value: null
+  - name: Priority
+    type: single_select
+    value: null
